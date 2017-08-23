@@ -9,7 +9,7 @@ import builtinCompilers from "./builtin-compilers.js"
 import builtinModules from "./builtin-modules.js"
 import createOptions from "./util/create-options.js"
 import getSourceType from "./util/get-source-type.js"
-import resolveId from "./util/resolve-id.js"
+import resolveId from "./path/resolve-id.js"
 import setGetter from "./util/set-getter.js"
 
 const queryHashRegExp = /[?#].*$/

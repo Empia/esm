@@ -1,10 +1,10 @@
-import Module from "module"
+import Module from "../module.js"
 import PkgInfo from "../pkg-info.js"
 import Wrapper from "../wrapper.js"
 
 import { dirname } from "path"
 import env from "../env.js"
-import resolveId from "../util/resolve-id.js"
+import resolveId from "../path/resolve-id.js"
 
 const { _tickCallback, argv } = process
 

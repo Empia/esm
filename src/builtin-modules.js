@@ -1,6 +1,6 @@
 import Entry from "./entry.js"
 import FastObject from "./fast-object.js"
-import Module from "module"
+import Module from "./module.js"
 
 import binding from "./binding.js"
 import setGetter from "./util/set-getter.js"
